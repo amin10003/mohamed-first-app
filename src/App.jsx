@@ -6,7 +6,9 @@ import ColorPicker from './components/ColorPick'
 import ThemeToggle from './components/Theme'
 import Clicker from "./components/Clicker";
 import Inputer from './components/Input'
-
+import Greeting2 from './components/welcomeMessage'
+import Dashboard from './components/Dashboard'
+import Notification from './components/Notification'
 
 
 function App() {
@@ -19,6 +21,9 @@ function App() {
     <ColorPicker/>
     <Clicker/>
     <Inputer/>
+    <Greeting2 isLoggedIn = {true} />
+    <Dashboard isloggedIn = {true} />
+    <Notification hasNewsMessage={true}/>
     </>
   )
 }

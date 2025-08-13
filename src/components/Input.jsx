@@ -12,7 +12,7 @@ function Inputer() {
      return (
         <div>
             <input type="text" value={text} onChange={handleChange} />
-            <p>you typed: {text}</p>
+            <p>you typed: {text} </p>
         </div>
      )
 
